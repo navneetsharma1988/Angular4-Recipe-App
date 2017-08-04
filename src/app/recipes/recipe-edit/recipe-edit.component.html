@@ -48,8 +48,9 @@
               rows="6"
               type="text"
               id="description"
+              class="form-control"
               formControlName="description"
-              class="form-control"></textarea>
+              rows="6"></textarea>
           </div>
         </div>
       </div>
@@ -74,17 +75,20 @@
             </div>
             <div class="col-xs-2">
               <button
-                class="btn btn-danger"
                 type="button"
+                class="btn btn-danger"
                 (click)="onDeleteIngredient(i)">X</button>
             </div>
           </div>
-            <hr>
-            <div class="row">
-                <div class="col-xs-12">
-                    <button class="btn btn-success" type="button" (click)="onAddIngredient()">Add Ingredient</button>
-                </div>
+          <hr>
+          <div class="row">
+            <div class="col-xs-12">
+              <button
+                type="button"
+                class="btn btn-success"
+                (click)="onAddIngredient()">Add Ingredient</button>
             </div>
+          </div>
         </div>
       </div>
     </form>
