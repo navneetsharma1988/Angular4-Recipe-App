@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+.heading {
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
